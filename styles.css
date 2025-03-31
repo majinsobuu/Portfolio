@@ -1,0 +1,124 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0F172A; /* Dark Navy */
+    color: #E2E8F0; /* Soft White-Gray Text */
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #111827; /* Deep Charcoal */
+    color: #FACC15; /* Bright Yellow */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px solid #6366F1; /* Electric Purple */
+}
+
+header img {
+    width: 100;
+    height: 50cqb;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.one {
+    text-align: left;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FACC15; /* Bright Yellow */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #6366F1; /* Electric Purple */
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    background: #111827; /* Deep Charcoal */
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(99, 102, 241, 0.5); /* Purple Glow */
+}
+
+/* Projects */
+.project {
+    background: #1E293B; /* Dark Blue */
+    padding: 28px;
+    margin: 10px auto;
+    border-radius: 25px;
+    width: 50%;
+    height: auto;
+    color: white;
+    transition: 0.3s;
+    border: 2px solid #6366F1; /* Electric Purple Border */
+}
+
+.project:hover {
+    background: #6366F1; /* Electric Purple */
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* Skills Section */
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+#skills li {
+    width: 45%;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background: #1E293B; /* Dark Blue */
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #FACC15; /* Bright Yellow */
+    border: 1px solid #6366F1; /* Electric Purple */
+}
+
+/* Footer */
+footer {
+    background: #111827;
+    color: #FACC15; /* Bright Yellow */
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #6366F1; /* Electric Purple */
+}
+
+a{
+    text-decoration: none;
+    color: #8485ed; /* Electric Purple */
+    transition: bsackground-color 0.3s ease,;
+
+}
+
+a :hover {
+    color: #FACC15; /* Bright Yellow */
+}   
