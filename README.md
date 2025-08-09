@@ -1,1 +1,1 @@
-Foward to Site [https](https://majinsobuu.github.io/Portfolio/)
+Foward to my [Portfolio](https://majinsobuu.github.io/Portfolio/)
