@@ -207,6 +207,46 @@ span {
   border-color: rgba(124, 156, 255, 0.28);
 }
 
+.doc-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.doc-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  width: min(760px, 100%);
+}
+
+.doc-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1.3rem 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.02);
+  box-shadow: 0 10px 22px rgba(12, 18, 30, 0.18);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.doc-item:hover,
+.doc-item:focus-visible {
+  transform: translateY(-2px);
+  border-color: rgba(124, 156, 255, 0.32);
+  box-shadow: 0 16px 28px rgba(90, 124, 255, 0.16);
+}
+
+.doc-item strong {
+  font-size: 1.1rem;
+}
+
+.doc-item span {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 .quick-stats {
   display: flex;
   flex-wrap: wrap;

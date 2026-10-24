@@ -1,0 +1,3 @@
+# Keep private portfolio files out of public hosting
+# GitHub Pages will only publish tracked files in the repository.
+documents/
